@@ -44,4 +44,5 @@ int main(){
     char *a = "Privet ", *b = "Mir";
     char *c = ConcatinateStrings(a, b);
     cout << c << endl;
+    return 0;
 }
