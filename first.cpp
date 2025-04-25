@@ -1,6 +1,7 @@
 #include <iostream>
 #include <utility>
 
+
 template<class T>
 class MyUnique {
     T* p = nullptr;
