@@ -20,7 +20,7 @@ public:
         other.p = nullptr;
     }
 
-    MyUnique& operator=(MyUnique&& other) noexcept {
+    MyUnique& operator=(MyUnique&& other) {
         if (this != &other) {
             delete p;
             p = other.p;
